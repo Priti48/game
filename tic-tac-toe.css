@@ -1,0 +1,49 @@
+#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9
+	{
+		border : 1px solid black;
+		height:150px;
+		width:150px;
+		float:left;
+		font-size: 140px;
+		text-align: center;
+	}
+	#d1,#d4,#d7
+	{
+		clear: left;
+		border-left: none;
+	}
+	#main
+	{
+		margin-left: 350px;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	#d3,#d6,#d9
+	{
+		border-right: none;
+	}
+	#d1,#d2,#d3
+	{
+		border-top: none;
+	}
+	#d7,#d8,#d9
+	{
+		border-bottom: none;
+	}
+	#btn{
+		visibility:  hidden;
+	}
+	#message{
+		text-align: center;
+		margin-top: 10px;
+		font-size: 30px;
+		color: red;
+		background-color: cyan;
+	}
+	#body
+	{
+		background-color: pink;
+	}
+
